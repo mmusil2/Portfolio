@@ -75,3 +75,42 @@ h2, h4 {
 .card-body{
   text-align: center;
 }
+
+body {
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#email {
+  background-color: lightgray;
+  text-align: center;
+}
+
+ul {
+  padding: 30px;
+}
+
+li {
+  display: inline;
+  padding-left: 15px;
+  color: white;
+}
+
+#links {
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+  color: white;
+}
+
+a.links:link {
+  color: white;
+  text-decoration: none;
+}
+
+a.links:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a.links:hover {
+  color: grey;
+}
