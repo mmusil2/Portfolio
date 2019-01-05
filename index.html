@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Matthew Musil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="javascript/Image-Zoom-Hover-Magnifier/image-magnifier.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javascript/3D-Hover-Effect-jQuery-Plate/docs/jquery.plate.js"></script>
+    <script type="text/javascript" src="javascript/app.js"></script>
+    
+</head>
+
+<html lang="en">
+    <body>
+
+        <header>
+          <!--Navbar-->
+          <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#"><strong>MDB</strong></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                  </li>
+                </ul>
+                <!-- <form class="form-inline">
+                  <div class="md-form my-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                  </div>
+                </form> -->
+              </div>
+            </div>
+          </nav>
+          <!-- Navbar -->
+          <!-- Full Page Intro -->
+          <div class="view" style="background-image: url('images/skyline.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light align-items-center">
+              <!-- Content -->
+              <div class="container" id="headings">
+                <!--Grid row-->
+                <div class="row">
+                  <!--Grid column-->
+                  <div class="col-md-12 mb-4 white-text text-center">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Full Stack Web Developer</strong></h5>
+                    <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 wow fadeInDown" data-wow-delay="0.3s"><strong>Matthew Musil</strong></h1>
+                    <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
+                    <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>HTML | CSS | JavaScript | Node</strong></h5>
+                    <!-- <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">portfolio</a>
+                    <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">About me</a> -->
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+          </div>
+          <!-- Full Page Intro -->
+        </header>
+        <!-- Main navigation -->
+        <!--Main Layout-->
+        <main>
+          <div class="gray-bg">
+            <div class="container">
+              <!--Grid row-->
+              <div class="row py-5">
+                <!--Grid column-->
+                <div class="col-md-6 text-center">
+                    <div class="card">
+                        <img src="images/profile.jpg" alt="Avatar" style="width:80%">
+                        <div class="container">
+                          <h4><b>MATTHEW MUSIL</b></h4> 
+                          <p>Full Stack Web Developer</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <h2>About Me</h2>
+                  <br>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+          </div>
+
+    <div class="container" id="portfolio">
+    <div class="row justify-content-center mt-5">
+        <h2>MY PROJECTS</h2>
+    </div>
+    <div class="row justify-content-center mt-4">
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/thyme.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Where to Eat This Thyme</h4>
+                <hr>
+                <a href="https://theluomamr.github.io/Group_Project_One/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/TheLuomamr/Group_Project_One" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/rpg.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Mortal Kombat RPG</h4>
+                <hr>
+                <a href="https://mmusil2.github.io/unit-4-game/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/unit-4-game" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/trivia.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">80s Movies Trivia Game</h4>
+                <hr>
+                <a href="https://mmusil2.github.io/TriviaGame/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/TriviaGame" class="btn">GitHub</a>
+            </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+            <img class="card-img-top" src="images/word.png" alt="Card image">
+            <div class="card-body">
+                <h4 class="card-title">Marvel Word Game</h4>
+                <hr>
+                <a href="https://mmusil2.github.io/Word-Guess-Game/" class="btn btn-secondary">Website</a>
+                <a href="https://github.com/mmusil2/Word-Guess-Game" class="btn">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-4">
+        <h5>More Projects Coming Soon</h5>
+    </div>
+  </div>
+
+
+
+    </main>
+    <!--Main Layout-->
+
+    <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
